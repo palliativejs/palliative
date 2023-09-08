@@ -1,0 +1,39 @@
+{
+  "name": "palliative",
+  "version": "1.0.0",
+  "description": "Palliative library to help JavaScript.",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "rm -rf build && tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MadDeveloper/palliative.git"
+  },
+  "keywords": [
+    "palliative",
+    "javascript",
+    "typescript",
+    "library"
+  ],
+  "author": {
+    "name": "MadDeveloper - Julien Sergent"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MadDeveloper/palliative/issues"
+  },
+  "homepage": "https://github.com/MadDeveloper/palliative#readme",
+  "devDependencies": {
+    "@tsconfig/node18": "^1.0.2",
+    "@types/node": "^18.15.11",
+    "@typescript-eslint/eslint-plugin": "^5.59.0",
+    "@typescript-eslint/parser": "^5.59.0",
+    "eslint": "^8.38.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.2.1",
+    "prettier": "^2.8.7",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  }
+}
