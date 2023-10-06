@@ -1,4 +1,6 @@
-import { freeze } from "../src"
+import { freeze } from "palliative"
+// or
+// import freeze from "palliative/freeze"
 
 const object = freeze({
   a: {

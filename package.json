@@ -14,7 +14,8 @@
     "palliative",
     "javascript",
     "typescript",
-    "library"
+    "library",
+    "helper"
   ],
   "author": {
     "name": "MadDeveloper - Julien Sergent"
